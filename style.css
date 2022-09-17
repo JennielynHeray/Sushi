@@ -1,0 +1,209 @@
+@font-face {
+      font-family:myFirstfont;
+      src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+      font-family: lemon;
+      src: url(fonts/Louis\ George\ Cafe.ttf);
+}
+@font-face {
+  font-family: grape;
+  src: url(fonts/GeosansLight.ttf);
+}
+body,html {
+      margin: 0;
+      font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+      background: #fff;
+    }
+    ul { 
+      margin: 50px auto 0; 
+      padding: 0; 
+      list-style: none; 
+      display: table;
+      width: 600px;
+      text-align: center;
+      font-size: 20px;
+    }
+    li { 
+      display: table-cell; 
+      position: relative; 
+      padding: 15px 0;
+    }
+    a {
+      color: black;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+      
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+    }
+    a:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: #42C2FF;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after { 
+      width: 100%; 
+      left: 0; 
+    }
+    @media screen and (max-height: 300px) {
+          ul {
+                margin-top: 40px;
+          }
+    }
+
+    .about {
+      font-size: 30px;
+      width: 80%;
+      margin: auto;
+      background: white;
+      padding: 3rem 1rem;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    h1{
+          text-align: left;
+          padding: 100px;
+          margin: 120px;
+          font-size: 70px;
+          font-family: myFirstfont;
+    }
+.desc-h2{
+       font-family: lemon;
+       text-align: center;
+       background-color: #FEFBF3;
+       font-size: 1.2rem;
+}
+
+p{
+      text-align: justify;
+      font-size: 20px;
+      font-family: grape;
+}
+.work {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+}
+
+.otherstuff{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+.touch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.logo{
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.med{
+  font-family: lemon;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+strong {
+  color: #3897D3;
+  text-align: center;
+}
+
+img {
+ float: right;
+ padding: 100px;
+ margin: 120px;
+ padding-bottom: 200px;
+
+}
+/* portfolio.html*/
+.container-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw 4vw;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+form h3{
+  
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+/*recommended*/
+
+.podcast-h2{
+  display:flex;
+  align-items: flex-start;
+
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background-color: #FBF2CF;
+  font-size: 20px;
+
+
+}
+form button {
+  padding: 15px;
+  background: #42C2FF;
+  color: wheat;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+
+}
